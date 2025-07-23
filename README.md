@@ -1,6 +1,6 @@
 # Spam-Detection
 
-📘 Spam Detection Using Machine Learning - Full Project Report
+***Spam Detection Using Machine Learning - Full Project Report
 1. Project Overview
 This project aims to classify text messages as 'Spam' or 'Not Spam' (Ham) using Natural Language Processing (NLP) and Machine Learning techniques. The complete pipeline includes data preprocessing, feature extraction, model training, evaluation, prediction, and deployment.
 2. Dataset Collection
@@ -70,9 +70,9 @@ Git commands used:
 - Choosing the best model
 - Understanding evaluation metrics and visualizations
 12. Final Outcome
-✅ A complete end-to-end Spam Detection System was built.
-✅ Multiple models were compared.
-✅ Extra features (time analysis) were added.
-✅ Deployed on GitHub.
+* A complete end-to-end Spam Detection System was built.
+* Multiple models were compared.
+* Extra features (time analysis) were added.
+* Deployed on GitHub.
 
 This project demonstrates a clear understanding of  ML, and project workflow.
