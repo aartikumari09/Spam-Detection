@@ -42,6 +42,8 @@ Tested the trained models on new, unseen text messages such as:
 - 'Can we meet at 5 PM?' → Ham
 
 All models correctly predicted the output.
+
+
 8. Extra Feature: Time-Based Analysis
 Random message time stamps were generated using NumPy and datetime.
 New columns 'Sent_time', 'Received_time', and 'hour' were added to analyze if spam frequency varies based on time.
@@ -67,10 +69,14 @@ This analysis helps to understand at what time spam is more likely to occur, whi
 
 
 This adds a temporal dimension to spam behavior analysis.
+
+
 9. Model Saving
 The best performing model was saved using Pickle:
 import pickle
 pickle.dump(model, open('model.pkl', 'wb'))
+
+
 10. Deployment
 The project was pushed to GitHub successfully. The repository includes:
 - Notebook files
@@ -84,11 +90,15 @@ Git commands used:
 - git commit -m 'Initial commit'
 - git remote add origin <repo-url>
 - git push -u origin main
+
+  
 11. Challenges Faced
 - Cleaning and preprocessing text effectively
 - Handling Git errors during repository push
 - Choosing the best model
 - Understanding evaluation metrics and visualizations
+
+  
 12. Final Outcome
 * A complete end-to-end Spam Detection System was built.
 * Multiple models were compared.
