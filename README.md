@@ -46,6 +46,26 @@ All models correctly predicted the output.
 Random message time stamps were generated using NumPy and datetime.
 New columns 'Sent_time', 'Received_time', and 'hour' were added to analyze if spam frequency varies based on time.
 
+2:- Spam vs Ham Messages by Hour of Day
+	This bar graph shows how many spam and ham messages are received                                during each hour of the day.
+
+	X-axis: Hours (from 8 AM to 11 PM).
+	Y-axis: Number of messages received
+	Green bars: Represent Ham (normal) messages.
+	Red bars: Represent Spam messages.
+
+	We used sns.countplot() to count how many spam and ham messages were received at each hour.
+This analysis helps to understand at what time spam is more likely to occur, which can be useful for future spam filtering improvements.
+
+
+3:- Hour-wise Spam Analysis
+	To make the project more insightful, I added a time-based feature which shows how spam messages vary by the time of day.
+      Using this line graph:
+ •  Messages were grouped based on the hour they were received (df.groupby("hour")).
+•  For each hour, the percentage of spam messages was calculated.
+•  The graph helps identify if spam messages are more common at specific times                         (for example, evenings).
+
+
 This adds a temporal dimension to spam behavior analysis.
 9. Model Saving
 The best performing model was saved using Pickle:
